@@ -45,11 +45,18 @@ public class Primitives {
         //Float - число з плаваючою точкою, 32 bit
         float cola = 0.33F;
 
-        double doubleNumber = 1.12345678901234567890;
-        float floatNumber = 1.12345678901234567890F;
+        double doubleNumber = 1.12345678901234567890; // Результат: 1.12345678901234568 (sout - скорочення для коду )
+        float floatNumber = 1.12345678901234567890F;  // Результат: 1.1234568
 
-        System.out.println(doubleNumber); // Результат: 1.12345678901234568 (sout - скорочення для коду )
-        System.out.println(floatNumber); // Результат: 1.1234568
+        //Char - character (символ), 16 bit
+        char letter = 'я' + 1; // Слово в числах, при виводі буде буква а;
+
+        char newLine = '\n'; // Перенос строки
+        char tab = '\t'; // 4 пробіли
+        char escape = '\\'; // 1 слеш
+
+        // Var - універсальний тип даних
+        var countPeople = 15;
 
     }
 

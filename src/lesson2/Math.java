@@ -43,6 +43,23 @@ public class Math {
 
         x = x - 1;
         x--;
+
+        // Остача від ділення
+
+        int modulo = 4 % 2; // Остача буде 0, тому число є чотним
+        int modulo2 = 5 % 2; // Остача буде 1, тому число є нечотним
+
+        // Скобки
+
+        int brackets = 2 + 2 * 2; // буде 6
+        int brackets2 = (2 + 2) * 2; // буде 8
+
+        //Практичне завдання
+
+        double height = 1.75;
+        int weight = 75;
+        double index = weight / (height*height);
+        System.out.println(index);
     }
 
 }
