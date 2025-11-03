@@ -41,6 +41,8 @@ public class Array {
         array2[0] = 14;
         System.out.println(Arrays.toString(array5));
         System.out.println(Arrays.toString(array2));
+
+        // Практичне завдання
     }
 
 }
