@@ -42,7 +42,9 @@ public class Array {
         System.out.println(Arrays.toString(array5));
         System.out.println(Arrays.toString(array2));
 
-        // Практичне завдання
+        // Практичне завдання трай
+
+
     }
 
 }
