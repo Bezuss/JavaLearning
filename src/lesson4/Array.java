@@ -1,6 +1,7 @@
-package lesson5;
+package lesson4;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Array {
 
@@ -42,9 +43,17 @@ public class Array {
         System.out.println(Arrays.toString(array5));
         System.out.println(Arrays.toString(array2));
 
-        // Практичне завдання трай2
+        // Практичне завдання
 
+        //Ответить на вопрос столица "Катара" ответ на вопрос записать в массив (какого-то типа)
 
+        String[] countries = new String[1];
+        Scanner scanner = new Scanner(System.in);
+
+        String country = scanner.nextLine();
+
+        countries[0] = country == "Доха" ? country : " ";
+        System.out.println(countries[0]);
     }
 
 }

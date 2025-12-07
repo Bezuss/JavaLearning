@@ -1,6 +1,4 @@
-package lesson4;
-
-import java.util.SortedMap;
+package lesson3;
 
 public class Switch {
     public static void main(String[] args) {
